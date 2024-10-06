@@ -1,12 +1,12 @@
 -r requirements.txt
 pytest
-coverage==4.4.2
+coverage
 flake8
 pep8-naming
 mccabe
 freezegun
 pytest-cov
 codecov
-setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
-brunette>=0.2.8,<1.0.0
-wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools
+brunette
+wheel
